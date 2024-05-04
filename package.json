@@ -1,0 +1,17 @@
+{
+  "name": "spam-token-list",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint tokens.json",
+    "format": "prettier --write './**/*' --ignore-unknown",
+    "lint:check": "eslint --ext .json .",
+    "format:check": "prettier --check './**/*' --ignore-unknown",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "8.0.0",
+    "husky": "8.0.0",
+    "prettier": "2.5.1",
+    "eslint-plugin-jsonc": "2.15.1"
+  }
+}
